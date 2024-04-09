@@ -1,11 +1,7 @@
-import React from "react";
-
 const Projects = () => {
   return (
     <div>
-      <div>
-        <img />
-      </div>
+      <div>project 1</div>
     </div>
   );
 };
