@@ -2,9 +2,9 @@ const Home = () => {
   return (
     <div
       id="main"
-      className="bg-[#4D403D] md:pt-16 w-full h-full md:h-screen overflow-hidden flex justify-center items-center flex-col md:flex-row"
+      className="bg-[#4D403D] pt-5 md:pt-16 w-full max-h-screen md:h-screen overflow-hidden flex justify-center items-center flex-col md:flex-row"
     >
-      <div className=" h-full  md:w-1/2 md:h-full flex justify-center flex-col items-center w-full">
+      <div className=" h-[50vh]  md:w-1/2 md:h-full flex justify-center flex-col items-center w-full">
         <h1 className="text-white text-2xl md:text-5xl font-bold text-center">
           Amit Verma - Full Stack Developer
         </h1>
@@ -27,10 +27,10 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="h-full md:h-full  md:w-1/2 flex justify-center  w-full">
+      <div className="max-h-[50vh] md:h-full  md:w-1/2 flex justify-center  w-full">
         <img
           src="https://res.cloudinary.com/detcorvmf/image/upload/f_auto,q_auto/v1/Portfolio/yaya"
-          className="h-fit  object-cover"
+          className="h-full md:min-h-fit  object-cover"
         />
       </div>
     </div>
