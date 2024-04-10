@@ -17,7 +17,7 @@ const Home = () => {
           am currently looking for new opportunities to work on exciting
           projects.{" "}
         </p>
-        <div className="mt-5">
+        <div className="mt-2 md:mt-5">
           <button className="px-5 mx-2 py-3 rounded-md text-white border border-white">
             {" "}
             Resume{" "}
@@ -27,7 +27,7 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="max-h-[50vh] md:h-full  md:w-1/2 flex justify-center  w-full">
+      <div className="max-h-[50vh] md:min-h-full  md:w-1/2 flex justify-center  w-full">
         <img
           src="https://res.cloudinary.com/detcorvmf/image/upload/f_auto,q_auto/v1/Portfolio/yaya"
           className="h-full md:min-h-fit  object-cover"
