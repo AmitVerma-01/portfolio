@@ -41,6 +41,8 @@ const Contact = () => {
           Send
         </button>
       </form>
+
+      <br />
     </div>
   );
 };

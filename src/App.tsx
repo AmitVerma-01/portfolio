@@ -1,5 +1,6 @@
 import "./App.css";
 import Contact from "./components/Contact.tsx";
+import Footer from "./components/Footer.tsx";
 import Home from "./pages/Home.tsx";
 import Navbar from "./pages/Navbar.tsx";
 import Projects from "./pages/Projects.tsx";
@@ -12,6 +13,7 @@ function App() {
       <Skill />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 }
