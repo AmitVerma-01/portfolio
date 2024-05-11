@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div
+    <main
       id="main"
       className="bg-[#4D403D] pt-5 md:pt-16 w-full max-h-screen md:h-screen overflow-hidden flex justify-center items-center flex-col md:flex-row"
     >
@@ -9,8 +9,8 @@ const Home = () => {
           Amit Verma - Full Stack Developer
         </h1>
         <p className="text-white text-sm md:text-md p-2 md:p-5">
-          I am a Full Stack Developer with 2 years of experience in building web
-          applications. I specialize in JavaScript and have professional
+          I am a Full Stack Developer with 6 months of experience in building
+          web applications. I specialize in JavaScript and have professional
           experience working with React, Node, and Express. I am also familiar
           with TypeScript, GraphQL, and MongoDB. I am passionate about learning
           new technologies and building products that provide value to users. I
@@ -34,7 +34,7 @@ const Home = () => {
           alt="hero-image"
         />
       </div>
-    </div>
+    </main>
   );
 };
 
