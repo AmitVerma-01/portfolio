@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 const Home = () => {
   return (
     <main
@@ -18,13 +20,34 @@ const Home = () => {
           projects.{" "}
         </p>
         <div className="mt-2 md:mt-5">
-          <button className="px-4 md:px-5 hover:bg-white hover:text-black md:py-3 mx-2 py-2 m rounded-md text-white border border-white">
-            {" "}
-            Resume{" "}
-          </button>
-          <button className="bg-white mx-2 px-4 py-2 md:px-5 md:py-3 rounded-md hover:bg-transparent hover:text-white border">
+          <motion.button className="px-4 md:px-5 hover:bg-white hover:text-black md:py-3 mx-2 py-2 m rounded-md text-white border border-white" 
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 1.01 }}
+            initial={{ scale: 0 }}
+            animate={{ rotate: 360, scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 260,
+              damping: 20
+            }}
+          >
+            Resume
+          </motion.button>
+          <motion.button
+            whileHover={{
+              scale: 0.8,
+              borderRadius: "100%"
+            }}
+            initial={{ scale: 0 }}
+            animate={{ rotate: 360, scale: 1 , }}
+            transition={{
+              type: "spring",
+              stiffness: 260,
+              damping: 20
+            }}
+            className="bg-white mx-2 px-4 py-2 md:px-5 md:py-3 rounded-md hover:bg-transparent hover:text-white border">
             <a href="#Contact"> Contact </a>
-          </button>
+          </motion.button>
         </div>
       </div>
       <div className="max-h-[50vh] md:min-h-full  md:w-1/2 flex justify-center  w-full">
@@ -33,7 +56,7 @@ const Home = () => {
           className="h-screen md:h-screen"
           alt="hero-image"
         />
-      </div>
+      </div>      
     </main>
   );
 };
