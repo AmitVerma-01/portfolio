@@ -10,11 +10,11 @@ const Home = () => {
         <h1 className="text-white text-2xl sm:text-3xl md:text-5xl font-bold text-center md:px-4">
           Amit Verma - Full Stack Developer
         </h1>
-        <p className="text-white text-sm md:text-md p-2 md:p-5">
-          I am a Full Stack Developer with 6 months of experience in building
-          web applications. I specialize in JavaScript and have professional
+        <p className="text-white text-sm md:text-md p-2 md:p-5 text-center">
+          I am a Full Stack Developer with 6 months of experience (not professional) in building
+          web applications. I specialize in JavaScript and have 
           experience working with React, Node, and Express. I am also familiar
-          with TypeScript, GraphQL, and MongoDB. I am passionate about learning
+          with TypeScript, PostgreSQL, and MongoDB. I am passionate about learning
           new technologies and building products that provide value to users. I
           am currently looking for new opportunities to work on exciting
           projects.{" "}
