@@ -12,15 +12,15 @@ interface Props {
 const ProjectCard = (props: Props) => {
   return (
     <div className="">
-      <div className="bg-[#4D403D]/50 md:flex justify-between items-center hover:border hover:border-black rounded-lg shadow-lg p-4 m-4">
-        <div className="w-28 flex justify-center items-center">
+      <div className="bg-[#4D403D]/10 md:flex justify-between items-center hover:border hover:border-black rounded-lg shadow-lg p-4 m-4">
+        <div className="md:w-52 md:h-40 flex justify-center items-center">
           <img
             src={`/${props.img}.png`}
             alt="project img"
-            className="rounded-lg w-full"
+            className="rounded-lg w-full "
           />
         </div>
-        <div className=" w-1/2">
+        <div className=" md:w-1/2">
           <h2 className="text-xl font-bold">{props.name}</h2>
           <p className="text-gray-600  h-28">
             {props.description.slice(0, 150)}
@@ -29,7 +29,7 @@ const ProjectCard = (props: Props) => {
             </a>
           </p>
         </div>
-        <div className="space-y-1 flex flex-col  justify-around items-center">
+        <div className="space-y-1 flex md:flex-col  justify-around items-center">
           <a href={props.github} target="_blank">
             <button className="border hover:text-white flex justify-around items-center w-28 border-black gap-x-1 hover:bg-[#4D403D] rounded-lg p-2">
               <FaGithubAlt className="" /> Github
