@@ -25,7 +25,7 @@ const Navbar = ({ className }: { className: string }) => {
 
   return (
     <div
-      className={`md:flex md:justify-between md:px-6 items-center  fixed md:top-0 md:bg-opacity-100 md:rounded-none bg-[#4D403D]/50 py-4 text-white bg-opacity-70 text-md h-14 md:h-16 font-semibold ${className}`}
+      className={`md:flex md:justify-between md:px-6 items-center z-30  fixed md:top-0 md:bg-opacity-100 md:rounded-none bg-[#4D403D]/50 py-4 text-white bg-opacity-70 text-md h-14 md:h-16 font-semibold ${className}`}
     >
       <div className="hidden md:block mr-7 font-bold text-2xl">Amit Verma</div>
       <motion.div

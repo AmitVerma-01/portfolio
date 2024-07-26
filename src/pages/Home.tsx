@@ -20,7 +20,7 @@ const Home = () => {
           projects.{" "}
         </p>
         <div className="mt-2 md:mt-5">
-          <motion.button className="px-4 md:px-5 hover:bg-white hover:text-black md:py-3 mx-2 py-2 m rounded-md text-white border border-white" 
+          <motion.button className="px-4 md:px-5 z-10 hover:bg-white hover:text-black md:py-3 mx-2 py-2 m rounded-md text-white border border-white" 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 1.01 }}
             initial={{ scale: 0 }}
@@ -45,7 +45,7 @@ const Home = () => {
               stiffness: 260,
               damping: 20
             }}
-            className="bg-white mx-2 px-4 py-2 md:px-5 md:py-3 rounded-md hover:bg-transparent hover:text-white border">
+            className="bg-white z-10 mx-2 px-4 py-2 md:px-5 md:py-3 rounded-md hover:bg-transparent hover:text-white border">
             <a href="#Contact"> Contact </a>
           </motion.button>
         </div>
